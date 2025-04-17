@@ -18,7 +18,7 @@ html {
     display: flex;
     justify-content: space-around;
     padding: 10px 0 0;
-    height: 50px;
+    height: 10px;
 }
 
 .logo {
@@ -36,37 +36,44 @@ html {
     color: #E5E7EB;
 }
 
+.opening {
+    padding-bottom: 20px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
 .opening,
 h1,
 p {
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 18px;
 }
 
 .opening-blurb {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 700px;
+    width: 500px;
+}
+
+.opening p {
+    margin-top: 10px;
 }
 
 .opening-button {
     background-color: #3882F6;
+    color: #F9FAF8;
     width: 150px;
     padding: 5px 0 5px;
+    margin-top: 10px;
     border-radius: 5px;
-    outline-style: none;
+    border-style: none;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
-    text-align: center;
     align-self: flex-start;
 }
 
@@ -74,3 +81,4 @@ h1 {
     text-decoration: none;
     color: #F9FAF8;
 }
+
