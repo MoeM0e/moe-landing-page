@@ -77,11 +77,15 @@ h1 {
     align-self: flex-start;
 }
 
+.articles {
+    padding: 10px 0 10px;
+}
+
 .articles h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
-    margin: 10px 0 10px;
+    margin: 0 0 10px;
 }
 
 .entries {
@@ -104,8 +108,17 @@ h1 {
     border: 3px solid #3882F6;
     border-radius: 5px;
     width: 100%;
-
 }
+
+.credit {
+    font-size: 16px;
+}
+
+audio {
+    display: block;
+    margin: 0 0 5px;
+}
+
 .fact a {
     text-decoration: none;
     color: #3882F6;
@@ -140,4 +153,49 @@ blockquote,
     font-size: 18px;
     color: #1F2937;
     text-align: end;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.cta-block {
+    background-color: #3882F6;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cta-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    align-self: center;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #E5E7EB;
 }
