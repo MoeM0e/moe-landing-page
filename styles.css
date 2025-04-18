@@ -71,6 +71,11 @@ h1,
     border-style: none;
 }
 
+.opening-button a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
@@ -119,7 +124,7 @@ audio {
     margin: 0 0 5px;
 }
 
-.fact a {
+.credit a {
     text-decoration: none;
     color: #3882F6;
 }
@@ -186,6 +191,11 @@ blockquote,
     align-self: center;
     border: 2px solid white;
     border-radius: 5px;
+}
+
+.cta-button a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .footer {
